@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.1",
+    "react-bootstrap": "^2.10.5",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "name": "shoper",
+  "version": "2.0.0",
+  "description": "e commerce build using MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Juma2/server.js",
+    "server": "nodemon Juma2/server.js",
+    "client": "npm run dev --prefix Juma",
+    "data:import": "node Juma2/seeder.js",
+    "data:destroy": "node Juma2/seeder.js -d"
+  },
+  "author": "Simon juma",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
